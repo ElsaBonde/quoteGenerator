@@ -32,7 +32,6 @@ function App() {
 
   useEffect(() => {
     RetriveData();
-    fetch("https://api.quotable.io/random")
   }, []);
 
   return (
@@ -42,7 +41,7 @@ function App() {
       </header>
       <main>
         <section>
-          <p className="italic">"{q}"</p>
+          <p>"{q}"</p>
         </section>
         <section>
           <p>
