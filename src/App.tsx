@@ -24,7 +24,7 @@ function App() {
       .catch((error) => {
         //det hade varit bättre att använda console.error än console.log för att göra användaren uppmärksam på att det är ett error.
         console.log("There was a problem with the fetch operation:", error);
-        //hade varit bättre att använda exempelvis SetError för tyfligt visa användaren i användargränssnittet att ett error uppstått.
+        //hade varit bättre att använda exempelvis setError för tydligt visa användaren i användargränssnittet att ett error uppstått.
         alert(
           "There was a problem fetching the quote. Please try again later."
         );
